@@ -1,0 +1,29 @@
+@media only screen and (max-width: 900px) {
+    .flex-column {
+        flex-direction: column;
+    }
+    .flex-column li:hover {
+        background-color: #ddd;
+        margin-top: 1rem;
+    }
+    .flex-column .robot-txt, .flex-column .robot-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768){
+    .txt h1 {
+        font-size: 35px;
+    }
+    .txt p {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 425){
+    .txt h1 {
+        font-size: 25px;
+    }
+    .txt p {
+        font-size: 18px;
+    }
+}

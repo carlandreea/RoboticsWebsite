@@ -1,0 +1,21 @@
+.b-1 {
+    width: 30%;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.b-1 p {
+    border-bottom: 1px solid rgb(31, 28, 28);
+    padding: 6px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.b-1 p a {
+    transition: all ease-in-out .4s;
+    color: #fff;
+}
+.b-1 p a:hover {
+    margin-left: 1rem;
+}
+.b-1 p:last-child {
+    border-bottom: none;
+}
